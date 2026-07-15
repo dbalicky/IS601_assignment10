@@ -68,3 +68,17 @@ Then recreate PostgreSQL Docker setup:
 docker compose down -v
 docker compose up -d db
 ```
+# Testing 
+
+```bash
+pytest -s -v <test> --preserve-db
+```
+
+**-s**
+Disables output capture so terminal and print() outputs show immediately
+
+**-v**
+Shows full name and output of each test
+
+**--preserve-db**
+Preserves database for test instead of deleting and recreating it
