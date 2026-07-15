@@ -35,7 +35,19 @@ git init
 git remote set-url origin git@github.com:dbalicky/IS601_assignment10.git
 # or git remote add origin git@github.com:dbalicky/IS601_assignment10.git
 ```
-
+## Connect to pgadmin
+```bash
+docker compose up -d
+...
+...
+...
+ ✔ Image assignment10-web           Built                                                                       176.3s
+ ✔ Volume assignment10_pgadmin_data Created                                                                       0.0s
+ ✔ Container postgres_db            Healthy                                                                       5.2s
+ ✔ Container fastapi_calculator     Started                                                                       5.2s
+ ✔ Container pgadmin                Started                                                                       5.6s
+```
+Go to pgadmin and log in
 
 # Issues
 
