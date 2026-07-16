@@ -1,4 +1,8 @@
-# Setup
+# Docker Repository Link
+
+https://hub.docker.com/repository/docker/dbal7/is601_assignment10/general
+
+# Setup 
 
 ## Set python version to 3.10.11
 ```bash
